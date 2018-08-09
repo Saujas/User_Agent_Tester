@@ -1,0 +1,12 @@
+<h2>Hi! Please enter your details:</h2>
+
+<form action="/index/" method='post'> {% csrf_token %}
+    <input type = 'text' placeholder="name" name = "name" required></input><br>
+    <input type = 'email' placeholder="email" name = "email" required></input><br>
+    <button type="submit">Submit</button>
+
+</form>
+
+{% if yes %}
+	<h4>Thanks</h4>
+{% endif %}
