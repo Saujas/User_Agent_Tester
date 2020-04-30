@@ -1,3 +1,1 @@
-# Website
-
-### Hosted at https://website99.pythonanywhere.com/index
+### Simple Website to demonstrate user agent information
